@@ -1,0 +1,15 @@
+return {
+  'mrcjkb/rustaceanvim',
+  version = '^6', -- Recommended
+  lazy = false, -- This plugin is already lazy
+  config = function()
+    vim.g.rustaceanvim = {
+      server = {
+        on_attach = function(client, bufnr)
+          vim.keymap.set('n', 'rr', '<cmd>RustLsp runnables<cr>', opts)
+          vim.keymap.set('n', 'rt', '<cmd>RustLsp testables<cr>', opts)
+        end,
+      },
+    }
+  end,
+}
