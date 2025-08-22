@@ -31,6 +31,7 @@ require('lazy').setup {
   require 'plugins.comment',
   require 'plugins.floaterm',
   require 'plugins.rustaceanvim',
+  require 'plugins.gemini',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
