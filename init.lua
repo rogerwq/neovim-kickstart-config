@@ -32,6 +32,7 @@ require('lazy').setup {
   require 'plugins.floaterm',
   require 'plugins.rustaceanvim',
   require 'plugins.gemini',
+  -- require 'plugins.chatgpt',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
