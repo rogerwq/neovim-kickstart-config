@@ -31,7 +31,8 @@ require('lazy').setup {
   require 'plugins.comment',
   require 'plugins.floaterm',
   require 'plugins.rustaceanvim',
-  require 'plugins.gemini',
+  -- require 'plugins.gemini',
+  require 'plugins.gemini2',
   -- require 'plugins.chatgpt',
 }
 
