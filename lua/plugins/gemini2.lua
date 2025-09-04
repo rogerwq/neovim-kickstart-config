@@ -3,7 +3,6 @@ return {
   config = function()
     require('gmn').setup {
       -- (default values)
-      configFilepath = '~/.config/gemini.json',
       timeout = 30 * 1000,
       model = 'gemini-2.5-flash',
       safetyThreshold = 'BLOCK_ONLY_HIGH',
